@@ -15,8 +15,31 @@
   
 <body>
 <div>
-  <iframe width="560" height="315" src="http://157.230.238.164:5080/LiveApp/play.html?name=test" frameborder="0" allowfullscreen></iframe>
+    <video
+    id="my-video"
+    class="video-js"
+    controls
+    preload="auto"
+    width="800"
+    height="500"
+    poster="./img/logoplayer.jpg"
+    data-setup="{}"
+    >
+
+    <source src="" type="application/x-mpegURL">
+    <!--source src="http://162.243.167.132:8080/live/obs_stream" type="application/x-mpegURL"></source-->
+
+        <p class="vjs-no-js">
+        Video no soportado
+        <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+        </p>
+  </video>
+
+  
   <script src="https://vjs.zencdn.net/8.0.4/video.min.js"></script>
 </div>
 </body>
 </html>
+
+
+<iframe width="560" height="315" src="http://157.230.238.164:5080/LiveApp/play.html?name=test" frameborder="0" allowfullscreen></iframe>
