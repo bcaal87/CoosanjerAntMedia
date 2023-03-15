@@ -1,0 +1,9 @@
+body {
+    background:url(../img/marco.svg) no-repeat fixed center #ffffff;
+    background-size: cover;
+}
+div {
+    width: 100;
+    display: flex;
+    justify-content: center;
+}
