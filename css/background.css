@@ -1,39 +1,18 @@
+
 body {
-    background:url(../img/marco.svg) no-repeat fixed center #ffffff;
-    background-size: cover;
-}
-div {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 3%;
+  background: url('marco.svg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
-
-/* Change all text and icon colors in the player. */
-.vjs-matrix.video-js {
-    color: #00ff00;
-  }
-  
-  /* Change the border of the big play button. */
-  .vjs-matrix .vjs-big-play-button {
-    border-color: #00ff00;
-  }
-  
-  /* Change the color of various "bars". */
-  .vjs-matrix .vjs-volume-level,
-  .vjs-matrix .vjs-play-progress,
-  .vjs-matrix .vjs-slider-bar {
-    background: #00ff00;
-  }
-
-  .container {
-    position: absolute;
-    overflow: hidden;
-    width: 80%;
-    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
-  }
-  
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
   /* Then style the iframe to fit in the container div with full height and width */
   .responsive-iframe {
     position: absolute;
@@ -44,3 +23,5 @@ div {
     width: 80%;
     height: 80%;
   }
+
+
