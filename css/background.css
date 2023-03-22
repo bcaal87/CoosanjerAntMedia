@@ -1,12 +1,11 @@
-
-body {
-  background: url('marco.svg') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
-
+body{
+  background-image: url('marco.svg') ;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color:#ffffff;
+  background-size: cover; }
+  
 .center {
   display: flex;
   justify-content: center;
